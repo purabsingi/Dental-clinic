@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Sadhwani’s Dental Clinic",
+  "description": "Visit Dr. Sadhwani’s Dental Clinic in Rampuri Camp, Amravati, for personalized dental care, cosmetic dentistry and smile designing by Dr. Pooja Sadhwani.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
