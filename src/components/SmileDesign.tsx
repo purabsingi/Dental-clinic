@@ -21,19 +21,19 @@ export const SmileDesign: React.FC<SmileDesignProps> = ({ onOpenBooking }) => {
               {/* Identity context */}
               <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#79B7C1] mb-4">
                 <Sparkles className="w-3.5 h-3.5" />
-                <span>Cosmetic Dentist | Smile Designer</span>
+                <span>Smile Makeover & Teeth Alignment · सुंदर हसू</span>
               </div>
 
-              <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl font-medium leading-[1.14] tracking-tight mb-6 text-balance text-white">
-                Your smile should feel like you.
+              <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl font-medium leading-[1.14] tracking-tight mb-5 text-balance text-white">
+                Smiles designed to look completely natural.
               </h2>
 
               <div className="space-y-4 text-base sm:text-lg text-[#C7D0D2] leading-relaxed mb-8">
                 <p>
-                  Cosmetic dentistry is never about applying a standardized mold. A thoughtful smile design begins by respecting the natural proportions of your face, lip line, and facial expression.
+                  A great smile gives you and your child immense confidence. At <strong>Brush Dental Clinic</strong>, Dr. Swapnil Dahapute focuses on conservative aesthetic dentistry—preserving your natural tooth enamel while fixing gaps, chips, and uneven edges.
                 </p>
                 <p className="text-base text-[#A8B4B7]">
-                  At Dr. Sadhwani’s Dental Clinic in Amravati, Dr. Pooja Sadhwani approaches smile planning through careful clinical assessment, patient dialogue, and conservative techniques designed to harmonize aesthetics with functional comfort.
+                  No fake or artificial looking teeth. We match the exact natural color, shape, and translucency of your enamel so your smile looks naturally bright and feels completely comfortable.
                 </p>
               </div>
 
@@ -41,15 +41,15 @@ export const SmileDesign: React.FC<SmileDesignProps> = ({ onOpenBooking }) => {
               <div className="space-y-3.5 mb-10 text-sm text-[#E2E8E9]">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-4 h-4 text-[#79B7C1] shrink-0 mt-0.5" />
-                  <span><strong className="text-white font-medium">Facial harmony:</strong> Assessing tooth form and shade in relation to your personal facial profile.</span>
+                  <span><strong className="text-white font-medium">Gap closure (गॅप भरणे):</strong> Seamless closing of front tooth spaces with composite resin in just one visit.</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-4 h-4 text-[#79B7C1] shrink-0 mt-0.5" />
-                  <span><strong className="text-white font-medium">Conservative approach:</strong> Preserving healthy natural tooth structure wherever possible.</span>
+                  <span><strong className="text-white font-medium">Safe & Gentle:</strong> Protecting healthy tooth structure with minimal or zero tooth cutting.</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-4 h-4 text-[#79B7C1] shrink-0 mt-0.5" />
-                  <span><strong className="text-white font-medium">Collaborative input:</strong> You are actively involved in discussing preferences and treatment choices.</span>
+                  <span><strong className="text-white font-medium">Clear Cost & Steps:</strong> Full explanation and visual preview of your smile options before starting.</span>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ export const SmileDesign: React.FC<SmileDesignProps> = ({ onOpenBooking }) => {
                   onClick={onOpenBooking}
                   className="inline-flex items-center gap-2.5 px-6 py-3.5 text-xs uppercase tracking-wider font-semibold text-[#172326] bg-[#FAF9F5] hover:bg-white rounded-md transition-colors shadow-sm"
                 >
-                  <span>Request a Smile Consultation</span>
+                  <span>Consult for Smile Design</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </button>
               </div>
@@ -86,14 +86,14 @@ export const SmileDesign: React.FC<SmileDesignProps> = ({ onOpenBooking }) => {
                     <div className="w-full h-full flex flex-col items-center justify-center p-8 text-center bg-[#202E32]">
                       <Sparkles className="w-8 h-8 text-[#79B7C1] mb-2" />
                       <span className="font-editorial text-xl text-white">Thoughtful Smile Planning</span>
-                      <span className="text-xs text-[#A8B4B7] mt-1">Cosmetic Dentistry by Dr. Pooja Sadhwani</span>
+                      <span className="text-xs text-[#A8B4B7] mt-1">Cosmetic Dentistry at Brush Dental Clinic</span>
                     </div>
                   )}
                 </div>
 
                 <div className="mt-4 flex items-center justify-between text-xs text-[#8D9FA2] px-1">
                   <span>Tailored Dental Aesthetics</span>
-                  <span>Dr. Sadhwani’s Dental Clinic · Amravati</span>
+                  <span>Brush Dental Clinic · Amravati</span>
                 </div>
               </div>
             </ScrollReveal>

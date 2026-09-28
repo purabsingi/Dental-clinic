@@ -43,9 +43,9 @@ export const BeforeAfter: React.FC<BeforeAfterProps> = ({ onOpenBooking }) => {
     {
       id: 'case-1',
       tabLabel: 'Smile Alignment',
-      title: 'Aesthetic Smile Alignment & Optical Harmony',
+      title: 'Smile Alignment & Symmetry (सरळ व आकर्षक दात)',
       category: 'Smile Designing',
-      description: 'Refined proportion and gentle tooth contouring preserving natural translucency while establishing uniform optical balance.',
+      description: 'Gentle tooth contouring and natural proportion alignment, giving a balanced, confident smile without fake looks.',
       approach: 'Conservative Cosmetic Smile Design',
       beforeImg: case1Before,
       afterImg: case1After,
@@ -53,22 +53,22 @@ export const BeforeAfter: React.FC<BeforeAfterProps> = ({ onOpenBooking }) => {
     },
     {
       id: 'case-2',
-      tabLabel: 'Shade Whitening',
-      title: 'Enamel Shade Brightening & Stain Removal',
+      tabLabel: 'Teeth Brightening',
+      title: 'Stain Removal & Enamel Brightening (पिवळे डाग काढणे)',
       category: 'Teeth Whitening',
-      description: 'Controlled clinical whitening lifting intrinsic yellow staining while preserving sensitive enamel and achieving a radiant natural finish.',
-      approach: 'In-Clinic Controlled Brightening',
+      description: 'Safe clinical whitening lifting deep tea, tobacco, and yellow stains to reveal clean, sparkling natural ivory enamel.',
+      approach: 'Enamel-Safe Brightening',
       beforeImg: case2Before,
       afterImg: case2After,
       serviceTarget: 'Teeth Whitening',
     },
     {
       id: 'case-3',
-      tabLabel: 'Edge Repair',
-      title: 'Incisal Edge Repair & Cosmetic Bonding',
-      category: 'Cosmetic Dentistry',
-      description: 'Seamless restoration of uneven incisal wear and edge chips with shade-matched composite bonding, restoring natural smile symmetry.',
-      approach: 'Direct Aesthetic Resin Artistry',
+      tabLabel: 'Chipped Tooth Repair',
+      title: 'Chipped Front Tooth Repair (तुटलेला दात दुरुस्ती)',
+      category: 'Aesthetic Bonding',
+      description: 'Instant restoration of broken or uneven edges using exact shade-matched composite bonding in just one single sitting.',
+      approach: 'Tooth-Colored Resin Artistry',
       beforeImg: case3Before,
       afterImg: case3After,
       serviceTarget: 'Cosmetic Dentistry',
@@ -76,13 +76,13 @@ export const BeforeAfter: React.FC<BeforeAfterProps> = ({ onOpenBooking }) => {
     {
       id: 'case-4',
       tabLabel: 'Gap Closure',
-      title: 'Midline Diastema Closure & Contact Point Symmetry',
-      category: 'Restorative Dentistry',
-      description: 'Subtle closure of the central anterior gap with anatomical contact point shaping, eliminating trapped shadows for a confident smile.',
-      approach: 'Non-Invasive Diastema Contouring',
+      title: 'Closing Front Teeth Gap (दातांमधील अंतर भरणे)',
+      category: 'Diastema Closure',
+      description: 'Painless closing of the space between central front teeth without braces or tooth cutting. Natural contact and symmetry.',
+      approach: 'Painless Gap Contouring',
       beforeImg: case4Before,
       afterImg: case4After,
-      serviceTarget: 'Cosmetic Dentistry',
+      serviceTarget: 'Smile Designing',
     },
   ];
 
@@ -303,11 +303,19 @@ export const BeforeAfter: React.FC<BeforeAfterProps> = ({ onOpenBooking }) => {
                       </div>
                       <div className="flex items-center justify-between">
                         <span className="text-[#737579]">Attending Doctor:</span>
-                        <span className="font-medium text-[#17191A]">Dr. Pooja Sadhwani</span>
+                        <span className="font-medium text-[#17191A]">Dr. Swapnil Dahapute</span>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-[#737579]">Specialization:</span>
+                        <span className="font-medium text-[#17191A]">Pediatric Dentist</span>
                       </div>
                       <div className="flex items-center justify-between">
                         <span className="text-[#737579]">Clinic:</span>
-                        <span className="font-medium text-[#17191A]">Amravati Practice</span>
+                        <span className="font-medium text-[#17191A]">Brush Dental Clinic</span>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-[#737579]">Location:</span>
+                        <span className="font-medium text-[#17191A]">Stand Complex, Amravati</span>
                       </div>
                     </div>
                   </div>

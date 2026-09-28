@@ -19,7 +19,7 @@ export const About: React.FC = () => {
                   {!imageError ? (
                     <img
                       src={suiteImage}
-                      alt="Dr. Pooja Sadhwani consultation environment at Dr. Sadhwani’s Dental Clinic"
+                      alt="Consultation environment at Brush Dental Clinic"
                       referrerPolicy="no-referrer"
                       onLoad={() => setImageLoaded(true)}
                       onError={() => setImageError(true)}
@@ -32,17 +32,26 @@ export const About: React.FC = () => {
                       <div className="w-12 h-12 rounded-full bg-[#14505C]/10 flex items-center justify-center mb-3 text-[#14505C]">
                         <Sparkles className="w-6 h-6" />
                       </div>
-                      <span className="font-editorial text-xl text-[#17191A]">Dr. Pooja Sadhwani</span>
-                      <span className="text-xs text-[#585D62] mt-1">Cosmetic Dentist & Smile Designer</span>
+                      <span className="font-editorial text-xl text-[#17191A]">Dr. Swapnil Dahapute</span>
+                      <span className="text-xs text-[#585D62] mt-1">Pediatric Dentist · Brush Dental Clinic</span>
                     </div>
                   )}
                 </div>
 
                 {/* Doctor Details Bar */}
                 <div className="mt-4 p-4 rounded-md bg-[#FAF9F5] border border-black/[0.06] flex flex-col">
-                  <span className="text-sm font-semibold text-[#17191A]">Dr. Pooja Sadhwani</span>
-                  <span className="text-xs text-[#14505C] font-medium mt-0.5">Cosmetic Dentist | Smile Designer</span>
-                  <span className="text-xs text-[#737579] mt-1">Dr. Sadhwani’s Dental Clinic · Amravati</span>
+                  <div className="flex items-center justify-between">
+                    <span className="text-base font-bold text-[#17191A]">Dr. Swapnil Dahapute</span>
+                    <span className="text-[11px] bg-[#14505C]/10 text-[#14505C] font-semibold px-2 py-0.5 rounded">
+                      Reg: A-18174
+                    </span>
+                  </div>
+                  <span className="text-xs text-[#C2185B] font-bold mt-1">
+                    BDS, MDS (Pediatric Dentist)
+                  </span>
+                  <span className="text-xs text-[#585D62] mt-0.5 font-medium">
+                    Brush Dental Clinic · Stand Complex, Madhokar Peth, Amravati
+                  </span>
                 </div>
               </div>
             </ScrollReveal>
@@ -52,33 +61,33 @@ export const About: React.FC = () => {
           <div className="lg:col-span-7 order-1 lg:order-2 flex flex-col justify-center">
             <ScrollReveal direction="right" delay={0.15}>
               {/* Category / Context tag */}
-              <span className="text-xs font-semibold uppercase tracking-wider text-[#14505C] mb-3 block">
-                About the Practice
+              <span className="text-xs font-semibold uppercase tracking-wider text-[#14505C] mb-2 block">
+                Meet Your Doctor · दंततज्ज्ञ परिचय
               </span>
 
-              <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-[#17191A] font-medium leading-[1.18] tracking-tight mb-6 text-balance">
-                Care that puts your smile first.
+              <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-[#17191A] font-medium leading-[1.18] tracking-tight mb-5 text-balance">
+                Friendly, honest dental care you can always trust.
               </h2>
 
               <div className="space-y-4 text-base sm:text-lg text-[#585D62] leading-relaxed mb-8">
                 <p>
-                  At Dr. Sadhwani’s Dental Clinic, dental care is approached with patience, aesthetic precision, and genuine personal attention. Led by <strong className="font-medium text-[#17191A]">Dr. Pooja Sadhwani</strong>, the clinic is dedicated to helping patients achieve healthy, confident smiles through thoughtfully tailored treatments.
+                  At <strong className="font-semibold text-[#17191A]">Brush Dental Clinic</strong>, led by <strong className="font-semibold text-[#17191A]">Dr. Swapnil Dahapute (BDS, MDS)</strong>, we understand that visiting a dentist can sometimes cause worry—especially for young kids and nervous patients.
                 </p>
                 <p className="text-base text-[#585D62]">
-                  As a cosmetic dentist and smile designer in Amravati, Dr. Sadhwani believes that every smile is unique. Consultations begin with careful listening—understanding your personal aesthetic goals, addressing oral health concerns, and designing treatment steps focused on long-term comfort and natural-looking harmony.
+                  That is why our Amravati clinic is built around warmth, patience, and clear communication. Every appointment begins by listening carefully to you or your child, explaining each step simply in Marathi, Hindi, or English, and ensuring total comfort before any treatment begins.
                 </p>
               </div>
 
               {/* Core Values / Philosophy grid */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-black/[0.06]">
                 <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-md bg-[#FAF9F5] border border-black/[0.06] flex items-center justify-center shrink-0 text-[#14505C]">
+                  <div className="w-8 h-8 rounded-md bg-[#FAF9F5] border border-black/[0.06] flex items-center justify-center shrink-0 text-[#E91E63]">
                     <HeartHandshake className="w-4 h-4" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-[#17191A]">Individual Focus</h3>
+                    <h3 className="text-sm font-semibold text-[#17191A]">Zero Fear for Kids (बालस्नेही उपचार)</h3>
                     <p className="text-xs text-[#6C7075] mt-0.5 leading-normal">
-                      One-on-one attention without rushed appointments or crowded waiting times.
+                      Gentle, play-based approach so your children look forward to every visit without crying or anxiety.
                     </p>
                   </div>
                 </div>
@@ -88,9 +97,9 @@ export const About: React.FC = () => {
                     <Eye className="w-4 h-4" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-[#17191A]">Aesthetic Harmony</h3>
+                    <h3 className="text-sm font-semibold text-[#17191A]">Painless Treatment (वेदनारहित)</h3>
                     <p className="text-xs text-[#6C7075] mt-0.5 leading-normal">
-                      Smile design designed to complement your individual facial features naturally.
+                      Modern equipment and delicate numbing techniques for comfortable cavity fillings and root canals.
                     </p>
                   </div>
                 </div>
@@ -100,9 +109,9 @@ export const About: React.FC = () => {
                     <MessageSquare className="w-4 h-4" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-[#17191A]">Clear Guidance</h3>
+                    <h3 className="text-sm font-semibold text-[#17191A]">Honest, Transparent Advice</h3>
                     <p className="text-xs text-[#6C7075] mt-0.5 leading-normal">
-                      Straightforward explanations regarding treatment choices and oral care routines.
+                      No pushy treatments or unexpected bills. You receive clear explanations of options upfront.
                     </p>
                   </div>
                 </div>
@@ -112,9 +121,9 @@ export const About: React.FC = () => {
                     <Sparkles className="w-4 h-4" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-[#17191A]">Calm Atmosphere</h3>
+                    <h3 className="text-sm font-semibold text-[#17191A]">Clean & Hygienic Clinic</h3>
                     <p className="text-xs text-[#6C7075] mt-0.5 leading-normal">
-                      A peaceful clinic environment thoughtfully organized for patient ease.
+                      Hospital-grade autoclave sterilization for every single instrument to guarantee your family's safety.
                     </p>
                   </div>
                 </div>

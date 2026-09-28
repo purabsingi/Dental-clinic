@@ -7,29 +7,29 @@ export const Faq: React.FC = () => {
 
   const faqs = [
     {
-      question: 'What is a smile design consultation and what happens during it?',
+      question: 'Is dental treatment or toothache treatment painful at Brush Dental Clinic?',
       answer:
-        'A smile design consultation with Dr. Pooja Sadhwani begins with an in-depth conversation about your aesthetic preferences and oral health goals. We evaluate your tooth shape, symmetry, shade, and how your smile harmonizes with your facial features. You will receive a personalized treatment recommendation without pressure.',
+        'Not at all! Dr. Swapnil Dahapute uses gentle, modern numbing and advanced methods so treatments like cavity fillings, root canals, or cleanings are virtually painless. We take special care to keep children and nervous patients calm and smiling throughout.',
     },
     {
-      question: 'How do I schedule an appointment with Dr. Pooja Sadhwani?',
+      question: 'When should I bring my child for their first dental visit?',
       answer:
-        'You can call the clinic directly at 7719994814, or click the "Book an Appointment" button on this website to select your preferred time of day and initiate a call or WhatsApp message. We prioritize dedicated appointment slots so patients receive undivided attention.',
+        'Pediatric dentists recommend bringing your child around their first birthday or when their first baby tooth emerges. This helps catch early cavity risks, check healthy jaw growth, and builds a friendly, fear-free relationship with the dentist.',
     },
     {
-      question: 'Where is Dr. Sadhwani’s Dental Clinic located in Amravati?',
+      question: 'Do you treat adult patients, or only children?',
       answer:
-        'The clinic is situated at Shop No. 14, New Cotton Market Main Road, Lane No. 3, Opposite Krishna Nagar, Rampuri Camp, Amravati, Maharashtra 444601. It is easily accessible with convenient landmark navigation.',
+        'We treat the whole family! In addition to Dr. Dahapute’s specialized pediatric dental care for kids, Brush Dental Clinic provides full adult dental services—including toothache relief, root canals, cosmetic smile designing, gap closure, ceramic caps, and teeth brightening.',
     },
     {
-      question: 'Do cosmetic dental treatments look natural?',
+      question: 'Where exactly is the clinic located in Amravati?',
       answer:
-        'Yes. Dr. Sadhwani specializes in natural cosmetic dentistry. Treatments are customized to reflect your natural tooth characteristics, translucency, and facial symmetry rather than creating an artificial or cookie-cutter look.',
+        'Brush Dental Clinic is located at Stand Complex, Rajapeth - Irwin Square Flyover, Madhokar Peth, Amravati (Maharashtra 444605). You will easily spot our illuminated pink "BRUSH DENTAL CLINIC" neon sign board right from the flyover approach.',
     },
     {
-      question: 'Is parking and accessibility convenient at the clinic?',
+      question: 'How do I book an appointment?',
       answer:
-        'Yes, the clinic is located along New Cotton Market Main Road at Rampuri Camp, allowing easy vehicular approach, drop-offs, and local transit access.',
+        'It is very easy! Just call us at 075075 51234 or click the WhatsApp button on this website to message us directly. Booking ahead gives you a dedicated time slot without waiting.',
     },
   ];
 
@@ -43,15 +43,15 @@ export const Faq: React.FC = () => {
           transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
           className="text-center max-w-2xl mx-auto mb-14 sm:mb-16"
         >
-          <div className="flex items-center justify-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#14505C] mb-3">
+          <div className="flex items-center justify-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#14505C] mb-2">
             <HelpCircle className="w-3.5 h-3.5" />
-            <span>Patient Inquiries</span>
+            <span>Common Questions · नेहमी विचारले जाणारे प्रश्न</span>
           </div>
           <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-[#17191A] font-medium leading-[1.18] tracking-tight mb-4 text-balance">
             Frequently Asked Questions
           </h2>
           <p className="text-base sm:text-lg text-[#585D62] leading-relaxed">
-            Helpful answers to common questions about appointments, consultations, and our clinic.
+            Quick, honest answers to make your clinic visit completely stress-free.
           </p>
         </motion.div>
 

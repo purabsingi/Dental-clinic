@@ -52,7 +52,7 @@ export default function App() {
         {/* Hero Section */}
         <Hero onOpenBooking={() => handleOpenBooking()} />
 
-        {/* About Dr. Pooja Sadhwani */}
+        {/* About Brush Dental Clinic */}
         <About />
 
         {/* Clinical Services */}

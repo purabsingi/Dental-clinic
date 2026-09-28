@@ -35,21 +35,21 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
   if (!isOpen) return null;
 
   const services = [
-    'Dental Consultation',
-    'Smile Designing',
-    'Cosmetic Dentistry',
-    'Preventive Dental Care',
-    'Restorative Dentistry',
-    'Teeth Whitening',
+    'Kids Dental Care (लहान मुलांचे दंतोपचार)',
+    'Toothache Relief & Root Canal (रूट कॅनॉल)',
+    'Teeth Cleaning & Stain Removal (दात स्वच्छता)',
+    'Smile Designing & Gap Closure (सुंदर हसू)',
+    'Teeth Brightening (दात पांढरे करणे)',
+    'Family Dental Checkup & Advice (तपासणी)',
   ];
 
-  const timeSlots = ['Morning', 'Afternoon', 'Evening'];
+  const timeSlots = ['Morning (सकाळ)', 'Afternoon (दुपार)', 'Evening (संध्याकाळ)'];
 
   const messageText = encodeURIComponent(
-    `Hello Dr. Sadhwani, ${patientName ? `my name is ${patientName}. ` : ''}I would like to inquire about booking an appointment for ${selectedService} (${preferredTime} preference) at Dr. Sadhwani’s Dental Clinic in Amravati.`
+    `Hello Dr. Swapnil Dahapute, ${patientName ? `my name is ${patientName}. ` : ''}I would like to book an appointment for ${selectedService} (${preferredTime} preference) at Brush Dental Clinic in Amravati.`
   );
 
-  const whatsappUrl = `https://wa.me/917719994814?text=${messageText}`;
+  const whatsappUrl = `https://wa.me/917507551234?text=${messageText}`;
 
   return (
     <div
@@ -75,7 +75,7 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
         {/* Modal Header */}
         <div className="mb-6">
           <span className="text-xs font-semibold uppercase tracking-wider text-[#14505C] mb-1.5 block">
-            Dr. Sadhwani’s Dental Clinic · Amravati
+            Brush Dental Clinic · Amravati
           </span>
           <h2 id="modal-title" className="font-editorial text-2xl sm:text-3xl text-[#17191A] font-medium">
             Request an Appointment
@@ -148,11 +148,11 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
         {/* Action Buttons: Phone & WhatsApp */}
         <div className="space-y-2.5 pt-4 border-t border-black/[0.08]">
           <a
-            href="tel:+917719994814"
+            href="tel:+917507551234"
             className="w-full flex items-center justify-center gap-2.5 py-3 px-4 text-sm font-semibold text-white bg-[#14505C] hover:bg-[#0F3D46] rounded-md transition-colors shadow-xs"
           >
             <Phone className="w-4 h-4" />
-            <span>Call Clinic Directly (7719994814)</span>
+            <span>Call Clinic Directly (075075 51234)</span>
           </a>
 
           <a
@@ -168,7 +168,7 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
 
         {/* Small Note */}
         <p className="text-[11px] text-[#737579] text-center mt-4">
-          Location: Rampuri Camp, Amravati · Direct contact with Dr. Pooja Sadhwani’s practice.
+          Location: Stand Complex, Rajapeth - Irwin Square Flyover, Madhokar Peth, Amravati · Brush Dental Clinic.
         </p>
       </div>
     </div>
